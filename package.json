@@ -5,7 +5,7 @@
 
   "type": "module",
   "scripts": {
-    "build": "postcss styles.css -o dist/styles.css",
+    "build": "mkdir -p dist && npx postcss styles.css -o dist/styles.css",
     "watch": "postcss styles.css -o dist/styles.css --watch"
   },
   "keywords": [],
